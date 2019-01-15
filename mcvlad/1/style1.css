@@ -1,0 +1,45 @@
+table {
+   border-collapse: collapse;
+}
+.r {
+  width: 100px;
+  height: 25px;
+}
+
+.a {
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.a3 {
+  width: 50px;
+  height: 50px;
+  background-color: aquamarine;
+}
+.b3 {
+  width: 50px;
+  height: 50px;
+  background-color: lemonchiffon;
+}
+.r3 {
+  width: 50px;
+  height: 50px;
+}
+
+
+.sh {
+width: 35px;
+}
+
+.s {
+background-color: #fefdfe;
+}
+
+.g {
+background-color: #defade;
+}
+
+.r4 {
+background-color: #fe7e7f;
+}

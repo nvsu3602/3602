@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Таблицы HTML</title>
+      <link rel="stylesheet" href="style2.css">
+      <style>
+         .p3 {
+         font-size: 16pt;
+         text-decoration: underline;
+         font-style: italic;
+         }
+         .h3m {
+         text-decoration: line-through;
+         font-family: Monotype Corsiva;
+         color: #0000ff;
+         text-align: center;
+         font-size: 18pt;
+         }
+         .p21 {
+         background: yellow;
+         font-size: 16pt;
+         text-decoration: underline;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Т а б л и ц ы в HTML</h1>
+      <p style="font-size: 14pt; text-indent: 1.5em;"><span style="background: cyan">Одним из наиболее мощных и широко применяемых в <span style="font-family: arial; font-size: 16pt; font-weight: bold">HTML</span> средств являются <span style="font-family: verdana; font-size: 17pt; font-style: italic">таблицы</span>.</span></p>
+      <p style="text-align: right"><span class="p21">Понятие табличного представления данных не нуждается в дополнительном пояснении. </span><span class="p22">В HTML таблицы используются не только традиционно, как метод представления данных, но и как средство форматирования Web-страниц.</span></p>
+      <h2 style="color: #800080; font-size: 19pt">Создание простейших HTML-таблиц</h2>
+      <p style="font-family: tahoma; font-size: 12pt"><span class="opis">Описание</span> <span class="p3">таблиц</span> <u style="font-size: 14pt">должно</u> располагаться внутри раздела документа &lt;BODY&gt;.</p>
+      <p style="font-family: tahoma; text-align: center">Каждая <span style="text-decoration: underline; color: #0000ff">таблица</span> должна <span style="font-size: 18pt">начинаться</span> тэгом &lt;TABLE&gt; и завершаться тэгом &lt;/TABLE&gt;.</p>
+      <p style="text-align: center"><span style="background: #c0c0c0"><span style="font-family: Monotype Corsiva; font-size: 16pt; font-weight: bold; color: #0000ff">Каждая</span> строка начинается тэгом &lt;TR&gt; (Table Row) и завершается тэгом &lt;/TR&gt;. <span style="font-size: 16pt; font-weight: bold; color: red; font-style: italic">Отдельная</span> ячейка в строке обрамляется парой тегов &lt;TD&gt; и &lt;/TD&gt; (Table Data) или &lt;TH&gt; и &lt;/TH&gt; (Table Header)</span></p>
+      <h3 class="h3">Таблица 1</h3>
+      <h3 class="h3m">Математические выражения</h3>
+      <table border="1">
+         <tr>
+            <td style="font-family: Monotype Corsiva; font-weight: bold; width: 120px">Поле1</td>
+            <td style="font-family: tahoma; font-weight: bold; color: white; background: black; text-align: center; width: 120px">Поле 2</td>
+            <td style="font-family: verdana; font-weight: bold; color: blue; background: cyan; text-align: right; width: 120px">Поле 3</td>
+            <td class="pol4">Поле 4</td>
+            <td style="font-weight: bold; background: yellow; text-align: center; width: 120px">П о л е 5</td>
+         </tr>
+         <tr>
+            <td  style="font-weight: bold; color: blue">(a+b)<sup><small>2</small></sup></td>
+            <td style="font-weight: bold; text-align: center">a<sup><small>2</small></sup>-b<sup><small>2</small></sup></td>
+            <td style="font-weight: bold; text-align: right; color: blue">(a-b)<sup><small>3</small></sup></td>
+            <td  style="font-weight: bold">A<sub><small>1</small></sub>+A<sub><small>2</small></sub>+…A<sub><small>i</small></sub></td>
+            <td style="font-weight: bold; text-align: center; color: blue">y=x<sup><small>2</small></sup></td>
+         </tr>
+        
+      </table>
+
+   </body>
+</html>

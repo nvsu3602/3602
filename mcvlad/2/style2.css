@@ -1,0 +1,36 @@
+body {
+  width: 600px;
+  font-size: 14pt;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 24pt;
+}
+
+.h3 {
+  text-align: right;
+  font-size: 14pt;
+}
+
+.opis {
+  font-size: 18pt;
+  background: #ff00ff;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.pol4 {
+  font-family: Arial;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  background: #ff99cc;
+  width: 120px
+}
+
+.p22 {
+  background: #c0c0c0;
+  font-size: 12pt;
+}
